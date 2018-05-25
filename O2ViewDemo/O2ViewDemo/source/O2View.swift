@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 class O2View: UIView {
 
@@ -17,6 +19,11 @@ class O2View: UIView {
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let _ = Alamofire.request("https://www.google.com").responseJSON { (responseJson) in
+            print(responseJson.response!.statusCode)
+        }
     }
 
 }

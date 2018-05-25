@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let view = O2View(frame: CGRect(x: 0, y: 0, width: 200, height: 200))
+        self.view.addSubview(view)
+        view.center = self.view.center
     }
 
     override func didReceiveMemoryWarning() {

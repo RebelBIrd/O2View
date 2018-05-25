@@ -23,9 +23,10 @@ Pod::Spec.new do |s|
 
   s.source_files  = "O2View/*.swift"	#OC可以使用类似这样"Classes/**/*.{h,m}"
 
-  s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'	#所需的framework,多个用逗号隔开
+  s.frameworks = 'UIKit'	#所需的framework,多个用逗号隔开
   s.module_name = 'O2View'				#模块名称
 
-  # s.dependency "JSONKit", "~> 1.4"	#依赖关系，该项目所依赖的其他库，如果有多个可以写多个 s.dependency
+  s.dependency 'Alamofire', '~> 4.7'	#依赖关系，该项目所依赖的其他库，如果有多个可以写多个 s.dependency
+  s.dependency 'SwiftyJSON', '~> 4.0'
 
 end

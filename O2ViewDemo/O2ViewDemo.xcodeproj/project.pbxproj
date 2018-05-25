@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27E525B020B7AAE600C243A1 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E525AF20B7AAE600C243A1 /* TestView.swift */; };
+		27E525B220B7AB4B00C243A1 /* O2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E525B120B7AB4B00C243A1 /* O2View.swift */; };
 		27E54A7A1F4BC9BE003C9E03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E54A791F4BC9BE003C9E03 /* AppDelegate.swift */; };
 		27E54A7C1F4BC9BE003C9E03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E54A7B1F4BC9BE003C9E03 /* ViewController.swift */; };
 		27E54A7F1F4BC9BE003C9E03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E54A7D1F4BC9BE003C9E03 /* Main.storyboard */; };
 		27E54A811F4BC9BE003C9E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E54A801F4BC9BE003C9E03 /* Assets.xcassets */; };
 		27E54A841F4BC9BE003C9E03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E54A821F4BC9BE003C9E03 /* LaunchScreen.storyboard */; };
-		27E54A8C1F4BC9DB003C9E03 /* O2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E54A8B1F4BC9DB003C9E03 /* O2View.swift */; };
+		8B97F347263FCEAB7D15D3E5 /* Pods_O2ViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98AA7657B29D657B5AEEB75 /* Pods_O2ViewDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27E525AF20B7AAE600C243A1 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		27E525B120B7AB4B00C243A1 /* O2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O2View.swift; sourceTree = "<group>"; };
 		27E54A761F4BC9BE003C9E03 /* O2ViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = O2ViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E54A791F4BC9BE003C9E03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27E54A7B1F4BC9BE003C9E03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +27,9 @@
 		27E54A801F4BC9BE003C9E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27E54A831F4BC9BE003C9E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27E54A851F4BC9BE003C9E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27E54A8B1F4BC9DB003C9E03 /* O2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = O2View.swift; sourceTree = "<group>"; };
+		9F4EDCD6230F73CA7B5A8617 /* Pods-O2ViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-O2ViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-O2ViewDemo/Pods-O2ViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B1D8817AD5C2F6F92627CD00 /* Pods-O2ViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-O2ViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-O2ViewDemo/Pods-O2ViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F98AA7657B29D657B5AEEB75 /* Pods_O2ViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_O2ViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B97F347263FCEAB7D15D3E5 /* Pods_O2ViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27E525B520B7ABB900C243A1 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				27E525B120B7AB4B00C243A1 /* O2View.swift */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
 		27E54A6D1F4BC9BE003C9E03 = {
 			isa = PBXGroup;
 			children = (
 				27E54A781F4BC9BE003C9E03 /* O2ViewDemo */,
 				27E54A771F4BC9BE003C9E03 /* Products */,
+				EC48F5930CBAB9D4A65CCB85 /* Pods */,
+				F3AFCE42421A4A78387D90EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,33 @@
 		27E54A781F4BC9BE003C9E03 /* O2ViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				27E525B520B7ABB900C243A1 /* source */,
 				27E54A791F4BC9BE003C9E03 /* AppDelegate.swift */,
 				27E54A7B1F4BC9BE003C9E03 /* ViewController.swift */,
+				27E525AF20B7AAE600C243A1 /* TestView.swift */,
 				27E54A7D1F4BC9BE003C9E03 /* Main.storyboard */,
 				27E54A801F4BC9BE003C9E03 /* Assets.xcassets */,
 				27E54A821F4BC9BE003C9E03 /* LaunchScreen.storyboard */,
 				27E54A851F4BC9BE003C9E03 /* Info.plist */,
-				27E54A8B1F4BC9DB003C9E03 /* O2View.swift */,
 			);
 			path = O2ViewDemo;
+			sourceTree = "<group>";
+		};
+		EC48F5930CBAB9D4A65CCB85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F4EDCD6230F73CA7B5A8617 /* Pods-O2ViewDemo.debug.xcconfig */,
+				B1D8817AD5C2F6F92627CD00 /* Pods-O2ViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3AFCE42421A4A78387D90EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F98AA7657B29D657B5AEEB75 /* Pods_O2ViewDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27E54A881F4BC9BE003C9E03 /* Build configuration list for PBXNativeTarget "O2ViewDemo" */;
 			buildPhases = (
+				8563EB5F946698DB6F49B895 /* [CP] Check Pods Manifest.lock */,
 				27E54A721F4BC9BE003C9E03 /* Sources */,
 				27E54A731F4BC9BE003C9E03 /* Frameworks */,
 				27E54A741F4BC9BE003C9E03 /* Resources */,
+				E8CA93A5765061D8A0E19443 /* [CP] Embed Pods Frameworks */,
+				8D379ED5C64C5A910927AE8B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +172,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8563EB5F946698DB6F49B895 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-O2ViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D379ED5C64C5A910927AE8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-O2ViewDemo/Pods-O2ViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8CA93A5765061D8A0E19443 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-O2ViewDemo/Pods-O2ViewDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-O2ViewDemo/Pods-O2ViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27E54A721F4BC9BE003C9E03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E525B020B7AAE600C243A1 /* TestView.swift in Sources */,
 				27E54A7C1F4BC9BE003C9E03 /* ViewController.swift in Sources */,
 				27E54A7A1F4BC9BE003C9E03 /* AppDelegate.swift in Sources */,
-				27E54A8C1F4BC9DB003C9E03 /* O2View.swift in Sources */,
+				27E525B220B7AB4B00C243A1 /* O2View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +357,7 @@
 		};
 		27E54A891F4BC9BE003C9E03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F4EDCD6230F73CA7B5A8617 /* Pods-O2ViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = O2ViewDemo/Info.plist;
@@ -274,6 +370,7 @@
 		};
 		27E54A8A1F4BC9BE003C9E03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D8817AD5C2F6F92627CD00 /* Pods-O2ViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = O2ViewDemo/Info.plist;
@@ -303,6 +400,7 @@
 				27E54A8A1F4BC9BE003C9E03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
